@@ -25,5 +25,21 @@ In the case that a value representing a number is in memory as a string, there a
 
 
 
+From what the docs on functions is saying, it sounds like the functions take arguments by value if they are primitive types. If they are objects then they are passed as references...
+
+Function expressions allow you declare a function with or without a name. It seems better to use a name for debugging purposes.
+
+Function hoisting only works with function declarations—not with function expressions.
+
+You can have nested functions... how useful is this? Perhaps it allows for more concise code, but is it more readable?
+
+Name conflicts: inner most scope takes precedence
+
+*** Take a closer look at CLOSURES
+
+
+
+
+
 
 
